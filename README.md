@@ -1,7 +1,7 @@
 # R-N-custom-components
 Custom Reusable Components in React-Native
 
-1) Clone the repo using: git clone 
+1) Clone the repo using 
 2) Open the source code in your editor and run: npm install
 3) Run on your Android/IOS device
 
