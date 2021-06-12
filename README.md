@@ -1,4 +1,4 @@
-# R-N-custom-components
+# React-Native-Custom-Components
 Custom Reusable Components in React-Native
 
 1) Clone the repo using 
