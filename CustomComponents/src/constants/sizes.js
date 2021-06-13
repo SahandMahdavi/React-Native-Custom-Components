@@ -5,6 +5,7 @@
 
 export default {
   activeOpacsty: 0.5,
+  sizeFive: 5,
   sizeSeven: 7,
   sizeEight: 8,
   sizeTen: 10,
