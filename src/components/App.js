@@ -13,6 +13,8 @@ import colors from '../constants/colors';
 // -------- Components ---------
 import {CustomButton} from '../components/CustomButton/index';
 import {CustomCard} from '../components/CustomCard/index';
+import {CustomTextView} from '../components/CustomTextView/index';
+import enums from '../constants/enums';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -54,9 +56,25 @@ const App = () => {
           marginRight={sizes.sizeSixteen}
           marginLeft={sizes.sizeSixteen}
           backgroundColor={colors.silverColor}>
-          <Text>First Child</Text>
-          <Text>Second Child</Text>
-          <Text>Third Child</Text>
+          <CustomTextView
+            text={strings.textOne}
+            textColor={colors.primaryColor}
+            textSize={sizes.sizeSixteen}
+            textAlign={enums.CENTER}
+            ellipsizeMode={'tail'}
+            marginTop={sizes.sizeFive}
+            numberOfLines={1}
+          />
+
+          <CustomTextView
+            text={strings.textTwo}
+            textColor={colors.tomatoColor}
+            textSize={sizes.sizeSixteen}
+            textAlign={enums.RIGHT}
+            ellipsizeMode={'tail'}
+            marginTop={sizes.sizeFive}
+            numberOfLines={1}
+          />
         </CustomCard>
       </View>
     </SafeAreaView>

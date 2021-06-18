@@ -4,4 +4,6 @@
  */
 export default {
   buttonTitle: 'Press',
+  textOne: 'Text One',
+  textTwo: 'Text Two',
 };
